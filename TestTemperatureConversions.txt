@@ -1,0 +1,21 @@
+  TemperatureConversions temperatureToBeConverted = new TemperatureConversions("-34");
+ System.out.println(temperatureToBeConverted.getConversion("Fahrenheit","Kelvin"));
+ System.out.println(temperatureToBeConverted.getConversion("Fahrenheit","Fahrenheit"));
+ System.out.println(temperatureToBeConverted.getConversion("Fahrenheit","Celsius"));
+ System.out.println(temperatureToBeConverted.getConversion("Celsius","Kelvin"));
+ System.out.println(temperatureToBeConverted.getConversion("Celsius","Celsius"));
+ System.out.println(temperatureToBeConverted.getConversion("Celsius","Fahrenheit"));
+ System.out.println(temperatureToBeConverted.getConversion("Kelvin","Kelvin"));
+ System.out.println(temperatureToBeConverted.getConversion("Kelvin","Fahrenheit"));
+ System.out.println(temperatureToBeConverted.getConversion("Kelvin","Celsius"));
+ -34,00░F = 236,48 K
+ -34,00░F = -34,00░F
+ -34,00░F = -36,67░C
+ -34,00░C = 239,15 K
+ -34,00░C = -34,00░C
+ -34,00░C = -29,20░F
+ -34,00 K = -34,00 K
+ -34,00 K = -520,60░F
+ -34,00 K = -307,15░C
+ --------------------------------------
+ 

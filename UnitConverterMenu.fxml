@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="popMenuPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.0" prefWidth="300.0" styleClass="popMenuPane" stylesheets="@style.css" xmlns="http://javafx.com/javafx/20.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UnitConverterUIController">
+   <children>
+      <VBox fx:id="popMenu" layoutY="2.0" prefHeight="218.0" prefWidth="203.0" styleClass="popMenu" stylesheets="@style.css">
+         <children>
+            <Button fx:id="tempuratureButton" alignment="TOP_LEFT" mnemonicParsing="false" onAction="#temperatureAction" prefHeight="45.0" prefWidth="192.0" styleClass="tempuratureButton" stylesheets="@style.css" text="Temperature">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="31.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@temperature.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <VBox.margin>
+                  <Insets bottom="5.0" left="3.0" right="3.0" top="3.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="lengthButton" alignment="TOP_LEFT" mnemonicParsing="false" onAction="#errorAction" prefHeight="46.0" prefWidth="193.0" styleClass="lengthButton" stylesheets="@style.css" text="Length">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="32.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@length.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <VBox.margin>
+                  <Insets bottom="5.0" left="3.0" right="3.0" top="3.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="lengthButton" alignment="TOP_LEFT" mnemonicParsing="false" onAction="#errorAction" prefHeight="41.0" prefWidth="193.0" styleClass="massButton" stylesheets="@style.css" text="Mass">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="24.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@mass.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <VBox.margin>
+                  <Insets bottom="5.0" left="3.0" right="3.0" top="3.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

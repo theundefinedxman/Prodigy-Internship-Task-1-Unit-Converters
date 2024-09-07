@@ -1,0 +1,255 @@
+/** UnitConverterUI styling sheet.
+*
+* @author Buqwana Xolisile
+* @version 01/09/2024
+*  
+*/
+
+/* Main Scene Styling
+ *
+ */
+
+.header_pane{
+   -fx-background-color: #22a7bb;
+   -fx-border-color: #2EC4B6 ;
+   -fx-border-width: 0px 0px 2px 0px; 
+   -fx-border-radius: 0px;
+   -fx-background-radius: 0px;
+   -fx-border-style: solid;
+}
+.unitConverterLabel{
+   -fx-text-fill: black;
+}
+.body_pane{
+   -fx-background-color: #22a7bb;
+   -fx-border-color: #22a7bb;
+   -fx-border-width: 2px 2px 2px 2px; 
+   -fx-border-radius: 0px;
+   -fx-background-radius: 0px;
+   -fx-border-style: solid;
+}
+.menuButton{
+   -fx-background-color: #22a7bb;
+   -fx-border-color: #22a7bb;
+   -fx-border-width: 2px 2px 2px 2px; 
+   -fx-border-radius: 0px;
+   -fx-background-radius: 0px;
+   -fx-border-style: solid;
+}
+.converterPane{
+   -fx-background-color: #22a7bb;
+   -fx-border-color: #22a7bb;
+   -fx-border-width: 2px 2px 2px 2px; 
+   -fx-border-radius: 0px;
+   -fx-background-radius: 0px;
+   -fx-border-style: solid;
+}
+.bottomPane{
+   -fx-background-color: #22a7bb;
+   -fx-border-color: #2EC4B6;
+   -fx-border-width: 2px 0px 0px 0px; 
+   -fx-border-radius: 0px;
+   -fx-background-radius: 0px;
+   -fx-border-style: solid;
+}
+.helpButton{
+   -fx-background-color: #2EC4B6;
+   -fx-border-color: #2EC4B6;
+   -fx-border-width: 0px 0px 0px 0px; 
+   -fx-border-radius: 50px;
+   -fx-background-radius: 50px;
+   -fx-border-style: solid;
+   -fx-text-fill: black;
+}
+.helpButton:hover {
+    -fx-background-color: #FFFFFF;
+}
+.helpPane{
+   -fx-background-color: #22a7bb;
+   -fx-border-color: #2EC4B6 ;
+   -fx-border-width: 0px 0px 2px 0px; 
+   -fx-border-radius: 0px;
+   -fx-background-radius: 0px;
+   -fx-border-style: solid;
+}
+.exitButton{
+   -fx-background-color: #2EC4B6;
+   -fx-border-color: #2EC4B6;
+   -fx-border-width: 0px 0px 0px 0px; 
+   -fx-border-radius: 50px;
+   -fx-background-radius: 50px;
+   -fx-border-style: solid;
+   -fx-text-fill: black;
+}
+.exitButton:hover {
+    -fx-background-color: #FFFFFF;
+}
+/* Root 
+ *
+ */
+.unitConverterPane{
+   -fx-background-color: #262626 ;
+   -fx-border-color: #262626 ;
+   -fx-border-width: 2px 2px 2px 2px; 
+   -fx-border-radius: 0px;
+   -fx-background-radius: 0px;
+   -fx-border-style: solid;
+}
+/* Pop up Menu Styling
+ *
+ */
+.popMenuPane{
+   -fx-background-color: #22a7bb;
+   -fx-border-color: #22a7bb ;
+   -fx-border-width: 2px 2px 2px 2px; 
+   -fx-border-radius: 0px;
+   -fx-background-radius: 0px;
+   -fx-border-style: solid; 
+}
+.popMenu{
+   -fx-background-color: #2EC4B6;
+   -fx-border-color: #262626 ;
+   -fx-border-width: 2px 2px 2px 0px;
+   -fx-border-radius: 0px 20px 20px 0px;
+   -fx-background-radius: 0px 20px 20px 0px;
+   -fx-border-style: solid; 
+}
+.tempuratureButton{
+   -fx-background-color: #22a7bb ;
+   -fx-border-color: #2EC4B6 ;
+   -fx-border-width: 0px 0px 0px 0px; 
+   -fx-border-radius: 20px;
+   -fx-background-radius: 20px;
+   -fx-border-style: solid;
+   -fx-text-fill: black;
+}
+.tempuratureButton:hover {
+    -fx-background-color: #FFFFFF;
+}
+.lengthButton{
+   -fx-background-color: #22a7bb ;
+   -fx-border-color: #2EC4B6 ;
+   -fx-border-width: 0px 0px 0px 0px; 
+   -fx-border-radius: 20px;
+   -fx-background-radius: 20px;
+   -fx-border-style: solid;
+   -fx-text-fill: black;
+}
+.lengthButton:hover {
+    -fx-background-color: #FFFFFF;
+}
+.massButton{
+   -fx-background-color: #22a7bb ;
+   -fx-border-color: #2EC4B6 ;
+   -fx-border-width: 0px 0px 0px 0px; 
+   -fx-border-radius: 20px;
+   -fx-background-radius: 20px;
+   -fx-border-style: solid;
+   -fx-text-fill: black;
+}
+.massButton:hover {
+    -fx-background-color: #FFFFFF;
+}
+.helpLabel{
+   -fx-text-fill: black;
+}
+.helpStepOneLabel{
+   -fx-text-fill: black;
+}
+.helpStepThreeLabel{
+   -fx-text-fill: black;
+}
+.helpStepFiveLabel{
+   -fx-text-fill: black;
+}
+.helpStepFourLabel{
+   -fx-text-fill: black;
+}
+.helpStepTwoLabel{
+   -fx-text-fill: black;
+}
+
+/* A error Scene
+ *
+ */
+.notAvailablePane{
+   -fx-background-color: #22a7bb;
+   -fx-border-color: #2EC4B6 ;
+   -fx-border-width: 0px 0px 2px 0px; 
+   -fx-border-radius: 0px;
+   -fx-background-radius: 0px;
+   -fx-border-style: solid;
+}
+.notAvailableLabel{
+   -fx-text-fill: white;
+}
+.temperaturePane{
+   -fx-background-color: #22a7bb;
+   -fx-border-color: #2EC4B6 ;
+   -fx-border-width: 0px 0px 0px 0px; 
+   -fx-border-radius: 0px;
+   -fx-background-radius: 0px;
+   -fx-border-style: solid;
+}
+.temperatureLabel{
+   -fx-text-fill: black;
+}
+.convertLabel{
+   -fx-text-fill: black;
+}
+.prompTextTemp{
+   -fx-background-color: #FFFFFF;
+   -fx-border-color: #FFFFFF;
+   -fx-border-width: 0px 0px 0px 0px; 
+   -fx-border-radius: 5px 0px 0px 5px;
+   -fx-background-radius: 5px 0px 0px 5px;
+   -fx-border-style: solid;
+}
+.comboboxTempOne{
+   -fx-background-color: #2EC4B6;
+   -fx-border-color: #2EC4B6;
+   -fx-border-width: 0px 0px 0px 0px; 
+   -fx-border-radius: 0px 5px 5px 5px;
+   -fx-background-radius: 0px 5px 5px 5px;
+   -fx-border-style: solid;
+   -fx-text-fill: black;
+}
+.comboboxTempOne:hover {
+    -fx-background-color: #FFFFFF;
+}
+.toLabel{
+   -fx-text-fill: black;
+}
+.answerLabel{
+   -fx-text-fill: black;
+}
+.convertButton{
+   -fx-background-color: #2EC4B6;
+   -fx-border-color: #2EC4B6;
+   -fx-border-width: 0px 0px 0px 0px; 
+   -fx-border-radius: 50px;
+   -fx-background-radius: 50px;
+   -fx-border-style: solid;
+   -fx-text-fill: black;
+}
+.convertButton:hover {
+    -fx-background-color: #FFFFFF;
+}
+.clearButton{
+   -fx-background-color: #2EC4B6;
+   -fx-border-color: #2EC4B6;
+   -fx-border-width: 0px 0px 0px 0px; 
+   -fx-border-radius: 50px;
+   -fx-background-radius: 50px;
+   -fx-border-style: solid;
+   -fx-text-fill: black;
+}
+.clearButton:hover {
+    -fx-background-color: #FFFFFF;
+}
+
+
+
+
+
+

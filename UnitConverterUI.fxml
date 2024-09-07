@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="unitConverterPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="700.0" styleClass="unitConverterPane" stylesheets="@style.css" xmlns="http://javafx.com/javafx/20.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UnitConverterUIController">
+   <children>
+      <AnchorPane id=" " fx:id="header_pane" prefHeight="136.0" prefWidth="630.0" styleClass="header_pane" stylesheets="@style.css">
+         <children>
+            <Label fx:id="unitConverterLabel" alignment="TOP_LEFT" layoutX="4.0" prefHeight="70.0" prefWidth="340.0" styleClass="unitConverterLabel" stylesheets="@style.css" text="Unit Converters">
+               <font>
+                  <Font name="Brush Script MT Italic" size="63.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="body_pane" prefHeight="300.0" prefWidth="300.0" styleClass="body_pane" stylesheets="@style.css">
+         <children>
+            <Pane fx:id="converterPane" layoutY="81.0" prefHeight="300.0" prefWidth="689.0" styleClass="converterPane" stylesheets="@style.css" />
+            <Button fx:id="menuButton" mnemonicParsing="false" onAction="#menuAction" prefHeight="61.0" prefWidth="76.0" styleClass="menuButton" stylesheets="@style.css">
+               <graphic>
+                  <ImageView fx:id="imageViewMenu" fitHeight="49.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@menu_bar.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="bottomPane" prefHeight="119.0" prefWidth="626.0" styleClass="bottomPane" stylesheets="@style.css">
+         <children>
+            <HBox layoutX="10.0" layoutY="2.0" prefHeight="200.0" prefWidth="682.0">
+               <children>
+                  <AnchorPane prefHeight="200.0" prefWidth="306.0" />
+                  <AnchorPane prefHeight="200.0" prefWidth="250.0" />
+                  <AnchorPane prefHeight="200.0" prefWidth="206.0">
+                     <children>
+                        <Button fx:id="exitButton" layoutX="130.0" layoutY="8.0" mnemonicParsing="false" onAction="#closeAction" prefHeight="40.0" prefWidth="66.0" styleClass="exitButton" stylesheets="@style.css" text="Exit">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="helpButton" layoutX="56.0" layoutY="10.0" mnemonicParsing="false" onAction="#helpAction" prefHeight="35.0" prefWidth="66.0" styleClass="helpButton" stylesheets="@style.css" text="Help">
+                           <font>
+                              <Font name="System Bold" size="17.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </HBox>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
